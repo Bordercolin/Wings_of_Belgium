@@ -1,0 +1,41 @@
+.buttonContainer {
+  display: flex;
+  gap: 3.5rem;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.highlightedMissionsContainer {
+  padding-top: 1rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 1rem;
+  gap: 2rem;
+  width: 100%;
+  border-top: 1px solid white;
+}
+
+.highlightedMission {
+  padding-left: 2rem;
+}
+
+.highlightedMissionsContainer::before {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 2px;
+  background-color: #ff9e20;
+  top: 0;
+}
+
+.highlightedMissionsContainer::after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 2px;
+  background-color: #ff9e20;
+  top: 0;
+  right: 0;
+}

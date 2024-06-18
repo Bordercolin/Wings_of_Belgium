@@ -1,0 +1,55 @@
+.standardSubmitButtons {
+  background-color: #ff9e20;
+  width: 100%;
+  color: white;
+  border-style: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+}
+
+.socialSignupButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #696969;
+  background-color: white;
+  border-style: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+}
+
+.linkButton {
+  background-color: #ff9e20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+  text-decoration: none;
+  color: white;
+}
+
+.linkButton:hover {
+  color: white;
+}
+
+.activeAvatar {
+  background-color: red;
+  border: none;
+}
+.notActiveAvatar {
+  background-color: green;
+  border: none;
+}
+.disabled {
+  background-color: #d3d3d3;
+  filter: grayscale(100%);
+  border: none;
+}

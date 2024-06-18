@@ -1,0 +1,88 @@
+/* style.css */
+
+@import url("https://use.typekit.net/eti4ltr.css");
+
+body {
+  font-family: "bebas-neue", sans-serif;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  flex-direction: column;
+}
+
+canvas {
+  border: 1px solid white;
+  width: 430px;
+
+  background-image: url("/assets/games/fight-or-flight/img/jachtpiloot.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#difficultySelection {
+  position: absolute;
+  top: 20px;
+}
+
+#difficultySelection button {
+  font-family: "bebas-neue", sans-serif;
+  font-size: 2rem;
+  background-color: #ff9e20;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+#gameOverOverlay,
+#youWinOverlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border: 2px solid white;
+}
+
+#gameOverOverlay p,
+#youWinOverlay p {
+  margin: 0;
+  font-size: 24px;
+}
+
+#gameOverOverlay button,
+#youWinOverlay button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menuButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuButtons button {
+  font-family: "bebas-neue", sans-serif;
+  font-size: 2rem;
+  background-color: #ff9e20;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.menuButtons button a {
+  text-decoration: none;
+  color: black;
+}

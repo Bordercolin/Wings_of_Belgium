@@ -1,0 +1,41 @@
+/* Ensures the map covers the entire viewport */
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Styles the login container */
+.container {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container a {
+  color: white;
+  text-decoration: none;
+}
+.container a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+/* Centers the logo */
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  margin-block: 3rem;
+}
+
+.logoWrapper svg {
+  width: 10rem;
+  fill: white;
+}
+
+.form {
+  width: 70%;
+}

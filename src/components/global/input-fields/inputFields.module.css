@@ -1,0 +1,50 @@
+.inputContainer {
+  position: relative;
+}
+
+.inputField {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.inputFieldContainer {
+  position: relative;
+  width: 100%;
+  border: none;
+  color: white;
+}
+
+.inputWrapper::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 50%;
+  background-color: transparent;
+  left: -2px;
+  top: -2px;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.inputWrapper::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 50%;
+  background-color: transparent;
+  right: -2px;
+  bottom: -2px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.label {
+  margin-left: 0.5rem;
+}

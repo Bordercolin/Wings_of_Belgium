@@ -1,0 +1,42 @@
+body {
+  width: 430px;
+
+  position: relative;
+
+  margin: 0 auto;
+  background-color: #031b2e;
+  user-select: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 4.5rem;
+  font-size: 4rem;
+}
+.grayscale {
+  filter: grayscale(100%);
+}

@@ -1,0 +1,13 @@
+.btnSetting {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 78%;
+}
+
+.toggleButton {
+  border: #ff9e20 solid 3px;
+}
+.buttonOptions {
+  padding: 0.5rem 1.1rem;
+}

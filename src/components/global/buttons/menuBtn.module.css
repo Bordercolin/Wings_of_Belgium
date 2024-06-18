@@ -1,0 +1,10 @@
+.menuBtn {
+    width: 3.5rem;
+    margin-top: 1rem;
+    margin-left: auto; /* change for menu button right alignment*/
+    background: none;
+    border: none;
+}
+.menuBtn:hover {
+  cursor: pointer;
+}

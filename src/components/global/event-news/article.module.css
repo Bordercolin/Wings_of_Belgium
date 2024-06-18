@@ -1,0 +1,33 @@
+body{
+    background-color: #054070;
+}
+
+.news_Title{
+    color: #F2F2F2;
+    position: absolute;
+    bottom: 0rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+}
+
+.news_date{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem;
+    top: 0;
+    color: black;
+}
+
+.container_context{
+    color: #181717;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.container{
+        display: flex;
+        flex-direction: column;
+}
+
+
