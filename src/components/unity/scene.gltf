@@ -1,0 +1,476 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter r164"
+  },
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        3
+      ]
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "rotation": [
+        0.05943882051072209,
+        0.7422734486844039,
+        -0.06643142084911102,
+        0.6641415670716626
+      ],
+      "translation": [
+        0.9696309566497803,
+        -0.0026487933937460184,
+        -0.10855168104171753
+      ],
+      "scale": [
+        3.192873857698855,
+        3.1928734799580685,
+        3.1928738574748556
+      ],
+      "name": "map",
+      "extras": {
+        "name": "map"
+      },
+      "mesh": 0
+    },
+    {
+      "translation": [
+        0.003674924373626709,
+        0,
+        -0.003558933734893799
+      ],
+      "name": "Icosphere",
+      "extras": {
+        "name": "Icosphere"
+      },
+      "mesh": 1
+    },
+    {
+      "rotation": [
+        0,
+        0.745240267586491,
+        0,
+        0.66679602845819
+      ],
+      "translation": [
+        0.003674924373626709,
+        0,
+        -0.003558933734893799
+      ],
+      "scale": [
+        1.0000000943264993,
+        1,
+        1.0000000943264993
+      ],
+      "name": "Sphere_wire",
+      "extras": {
+        "name": "Sphere wire"
+      },
+      "mesh": 2
+    },
+    {
+      "name": "fullworldObject.glb",
+      "children": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 276108,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 276108,
+      "byteLength": 276108,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 552216,
+      "byteLength": 184072,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 736288,
+      "byteLength": 137400,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 873688,
+      "byteLength": 32844,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 906532,
+      "byteLength": 32844,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 939376,
+      "byteLength": 21896,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 961272,
+      "byteLength": 30720,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 991992,
+      "byteLength": 190464,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1182456,
+      "byteLength": 190464,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1372920,
+      "byteLength": 95232,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1468152,
+      "byteLength": 4
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1468156,
+      "byteLength": 16
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "scene_data.bin",
+      "byteLength": 1468172
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 23009,
+      "max": [
+        0.33564749360084534,
+        0.23563933372497559,
+        0.034854739904403687
+      ],
+      "min": [
+        -0.3331846594810486,
+        -0.3161274790763855,
+        -0.6113876700401306
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23009,
+      "max": [
+        0.9999746084213257,
+        0.9992891550064087,
+        0.999292254447937
+      ],
+      "min": [
+        -0.9999964237213135,
+        -0.9991281628608704,
+        -0.9995614886283875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 23009,
+      "max": [
+        0.9974492788314819,
+        0.8118811845779419
+      ],
+      "min": [
+        0.007379206828773022,
+        0.3168315887451172
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 68700,
+      "max": [
+        23008
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2737,
+      "max": [
+        1,
+        1,
+        0.9999999403953552
+      ],
+      "min": [
+        -0.9999999403953552,
+        -1,
+        -0.9999999403953552
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 2737,
+      "max": [
+        0.9999998807907104,
+        1,
+        1
+      ],
+      "min": [
+        -0.9999998807907104,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 2737,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0.5276179909706116
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 15360,
+      "max": [
+        2736
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 15872,
+      "max": [
+        1.0129854679107666,
+        1.0129855871200562,
+        1.012985348701477
+      ],
+      "min": [
+        -1.0129852294921875,
+        -1.0129855871200562,
+        -1.0129849910736084
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 15872,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5123,
+      "count": 47616,
+      "max": [
+        15871
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.0416666679084301
+      ],
+      "min": [
+        0.0416666679084301
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.5748031735420227,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.6038273388475408,
+        0.6038273388475408,
+        0.6038273388475408
+      ],
+      "doubleSided": true,
+      "name": "map"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.0027317428517647058,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.010960094003125918,
+        0.13843161502267545,
+        0.4969329950515914
+      ],
+      "doubleSided": true,
+      "name": "sphere"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0.031896033067374104,
+        0.3915724777393922
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9
+          },
+          "indices": 10,
+          "material": 2
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "name": "IcosphereAction",
+      "samplers": [
+        {
+          "input": 11,
+          "output": 12,
+          "interpolation": "LINEAR"
+        }
+      ],
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        }
+      ]
+    }
+  ]
+}

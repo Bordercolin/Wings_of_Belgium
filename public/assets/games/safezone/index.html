@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Canvas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="gameOverMenu" class="hidden">
+      <h1 id="gameOverMessage">Game Over</h1>
+      <button id="restartButton">Restart</button>
+      <button id="homeButton" onclick="navigateToHome()">Terug naar home</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      function navigateToHome() {
+        window.top.location.href = "/";
+      }
+    </script>
+  </body>
+</html>

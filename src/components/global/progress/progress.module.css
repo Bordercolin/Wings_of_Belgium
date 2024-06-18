@@ -1,0 +1,15 @@
+.progressBar {
+  width: 18rem;
+}
+.progressContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto
+}
+
+.username {
+  color: white;
+  margin-top: -1rem;
+}

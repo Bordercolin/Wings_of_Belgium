@@ -1,0 +1,56 @@
+.missionTeamSelectionContainer {
+  margin: 0 2rem;
+  margin-top: 20%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #213443;
+}
+
+.rectanglesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.rectangle {
+  background-color: #8a6a3b;
+  width: 1.5rem;
+  height: 3rem;
+}
+
+.horizontalRowRectangles {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rectangleHighlight {
+  background-color: #f2a243;
+  width: 1.5rem;
+  height: 3rem;
+}
+
+.bulletpoint {
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+
+.instruction {
+  display: flex;
+  align-items: start;
+
+}
+
+.instructionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+

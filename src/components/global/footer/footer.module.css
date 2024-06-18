@@ -1,0 +1,13 @@
+.footerInnerContainer {
+  width: 430px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerInnerContainer a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff9e20;
+}

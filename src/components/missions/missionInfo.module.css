@@ -1,0 +1,20 @@
+.missionInfoContainer {
+  margin: 0 2rem;
+  margin-top: 20%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5.370100021362305px);
+}
+
+.missionInfoDescription {
+  text-align: center;
+  height: 15rem;
+}

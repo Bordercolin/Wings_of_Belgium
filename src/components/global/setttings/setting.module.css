@@ -1,0 +1,40 @@
+.container {
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 2rem;
+  top: 30rem;
+  bottom: 10rem;
+  margin-left: 5rem;
+}
+
+.imageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+
+}
+.imageContainer button{
+  width: 7rem;
+}
+
+.changeBtn {
+  color: white;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  bottom: 15rem;
+  top: 0rem;
+}
+
+.user{
+  margin-inline: 2rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+

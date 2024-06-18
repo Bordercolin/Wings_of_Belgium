@@ -1,0 +1,54 @@
+@import url("https://use.typekit.net/eti4ltr.css");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  width: 430px;
+  height: 100vh;
+  display: block;
+  background: url("img/background.jpg") no-repeat center center;
+}
+
+#gameOverMenu.hidden {
+  display: none;
+}
+
+#gameOverMenu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#gameOverMenu h1 {
+  font-family: "bebas-neue", sans-serif;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+#gameOverMenu button {
+  font-family: "bebas-neue", sans-serif;
+  background-color: #e39a39;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
